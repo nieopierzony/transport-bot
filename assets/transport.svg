@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+    <style>
+        .rotate {
+            transform-origin: 50% 58%;
+            transform: rotate(%directiondeg);
+        }
+
+        .number {
+            font: bold 11px sans-serif;
+            fill: #FFF;
+        }
+    </style>
+    <path class="rotate" xmlns="http://www.w3.org/2000/svg" d="M18.046 29.1447L30.5 9.84436L42.954 29.1447H18.046Z"
+        fill="%arrow.fill" stroke="%arrow.stroke" stroke-width="2" />
+    <circle xmlns="http://www.w3.org/2000/svg" cx="30.5002" cy="35.7893" r="14.1316" fill="%circle.fill"
+        stroke="%circle.stroke" stroke-width="3" />
+    <text x="50%" y="59%" transform="" class="number" dominant-baseline="middle"
+        text-anchor="middle">%route.number</text>
+</svg>

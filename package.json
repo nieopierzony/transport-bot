@@ -1,0 +1,43 @@
+{
+  "name": "transport-bot",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/nieopierzony/transport-bot.git",
+  "author": "Philipp Zelinski",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --fix --ext .js src",
+    "start": "node .",
+    "dev": "nodemon -w ./src"
+  },
+  "dependencies": {
+    "@discordjs/collection": "^0.1.6",
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "axios": "^0.21.1",
+    "cachegoose": "^8.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "html2canvas": "^1.0.0-rc.7",
+    "leaflet": "^1.7.1",
+    "mapnik": "^4.5.6",
+    "mongoose": "^5.12.0",
+    "readdir": "^1.0.2",
+    "socket.io-client": "^4.0.0",
+    "staticmaps": "^1.4.4",
+    "svg2img": "^0.9.1",
+    "telegraf": "3.38.0",
+    "telegraf-i18n": "^6.6.0",
+    "telegraf-session-local": "^2.1.0",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
